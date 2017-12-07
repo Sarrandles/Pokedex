@@ -1,0 +1,117 @@
+body{
+  background-image: url("background.png");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: auto;
+}
+
+.sprite{
+    width:180px;
+    height:180px;
+    border: 10px solid seagreen;
+    background-color: white;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:10px;
+}
+.info{
+    background-color: lightblue;
+    border: 10px solid seagreen;
+    border-radius:20px;
+    height:200px;
+    width:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom:20px;
+}
+
+.electric{
+    background-color: yellow;
+}
+.fire{
+    background-color: red;
+}
+.water{
+    background-color: blue;
+}
+.grass{
+    background-color: green;
+}
+.ground{
+    background-color: maroon;
+}
+.rock{
+    background-color: brown;
+}
+.fairy{
+    background-color: pink;
+}
+.psychic{
+    background-color: indigo;
+}
+.poison{
+    background: purple;
+}
+.flying{
+    background-color: skyblue;
+}
+.dark{
+    background-color: black
+}
+.steel{
+    background-color: slategrey;
+}
+.fighting{
+    background-color: orange;
+}
+.ghost{
+    background-color: plum;
+}
+.dragon{
+    background-color: gold;
+}
+
+
+.pokedex{
+    width:280px;
+    height:620px;
+    background-color: red;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border: 20px solid darkred;
+    border-radius: 30px;
+    justify-content: space-around;
+    position: relative;
+    margin:0 auto;
+}
+button{
+    background-color: seagreen;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+button:hover{
+  background-color: yellow;
+}
+
+
+input {
+    border:3px solid seagreen;
+    border-radius: 3px;
+    width: 70%;
+    height: 30px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
